@@ -1,9 +1,6 @@
-<h1 center>
-Proyecto 1: Desarrollo Web
-<br>
-<img width='50' alt="html" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" />
-<img width='50' alt="Css" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" />
-<img width='50' alt="Js" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
+<h1 align=center>
+Proyecto 1: Desarrollo Web<br>
+Jose Pablo Monzon
 </h1>
 
 ## Recreando una pagina web
@@ -27,12 +24,12 @@ La [**pagina a recrear**](https://www.frantoiocavalli.com/) hecha originalmente 
 |<img width='50' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" />
  Nginx|Se utiliza para manejar la conexion al puerto en el servidor |
 
-### Site
+## Site
 
 
 
 
-### Checklist
+## Checklist
 
 - [ ] (35 puntos) Según qué tan interesante es el diseño de su interfaz
 - [ ] (10 puntos) Readme 
