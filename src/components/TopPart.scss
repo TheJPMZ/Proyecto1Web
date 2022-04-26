@@ -34,6 +34,8 @@ $color: #222222;
       justify-content: flex-start;
       font-size: 17px;
     }
+
+
     .buttons a {
       text-decoration: None;
       color: grey;
@@ -42,10 +44,22 @@ $color: #222222;
       &:hover {
         color: white;
       }
+
     }
 
     .buttons a:first-child {
       margin-left: 0;
+      color: white;
+
+      &::after{
+        content: "";
+        position: absolute;
+        transform: rotate(45deg);
+        left: 9.7%;
+        bottom: 30%;
+        border: 10px solid #333;
+
+      }
     }
 
 
