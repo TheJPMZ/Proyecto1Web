@@ -37,6 +37,15 @@ module.exports = {
           publicPath: 'aud/',
         },
       },
+      {
+        test: /\.(png|jpe?g|gif|mp4|mp3|webp|svg)$/i,
+        type: 'asset/resource',
+        generator: {
+          filename:'[name][ext]',
+          outputPath:'assets/',
+          publicPath:'assets/'
+        }
+      },
     ],
   },
   plugins: [

@@ -6,7 +6,7 @@ Jose Pablo Monzon
 ## Recreando una pagina web
 Se recrea una pagina web para demostrar todos los conocimientos obtenidos en el transcurso del curso.
 
-La [**pagina a recrear**](https://www.frantoiocavalli.com/) hecha originalmente por el estudio Sentempo.
+La [**pagina a recrear**](https://watch.wwe.com/) hecha originalmente por el equipo de la World Wrestling Entertainment.
 
 ### Tecnologias Utilizadas:
 |Tecnologias|Uso  |
