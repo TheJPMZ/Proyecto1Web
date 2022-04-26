@@ -1,0 +1,21 @@
+@import "bootstrap";
+
+$textcolor: #8b8b8b;
+
+.BotPart{
+
+
+
+  hr{
+    border: 1px solid #333333;
+    width: 92%;
+  }
+}
+
+li a{
+  text-decoration: None;
+  color: $textcolor;
+  &:hover {
+    color:#d0021b !important;
+  }
+}
