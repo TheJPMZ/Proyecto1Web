@@ -33,7 +33,14 @@ function TopPart() {
                 </div>
             </div>
             <div className="displaything">
-
+                <div> <a href="https://watch.wwe.com/">FEATURED</a> </div>
+                <div> <a href="https://watch.wwe.com/premium">PREMIUM</a></div>
+                <div> <a href="https://watch.wwe.com/in-ring/1007"> RAW </a></div>
+                <div> <a href="https://watch.wwe.com/in-ring/3622">SMACKDOWN </a></div>
+                <div> <a href="https://watch.wwe.com/in-ring/3622"> NXT </a></div>
+                <div> <a href="https://watch.wwe.com/in-rings"> IN-RING </a></div>
+                <div> <a href="https://watch.wwe.com/originals"> ORIGINALS </a></div>
+                <div> <a href="https://watch.wwe.com/schedule"> WATCH NOW </a></div>
             </div>
         </div>
     )
