@@ -9,7 +9,7 @@ function TopPart() {
             <div className="borde">
                 <div className="leftside">
                     <div className="logo">
-                        <a href="https://www.google.com">
+                        <a href="https://www.wwe.com">
                             <img src={logo} alt="Logo WWE" />
                         </a>
                     </div>

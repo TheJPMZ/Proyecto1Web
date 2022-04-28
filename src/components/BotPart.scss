@@ -14,10 +14,41 @@ $textcolor: #8b8b8b;
   }
 }
 
+li {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+li, h5{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+}
+
+h5{
+  font-weight: bold;
+  color: white;
+}
+
 li a{
   text-decoration: None;
   color: $textcolor;
   &:hover {
     color:#d0021b !important;
   }
+}
+
+.container{
+  margin-left: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.row {
+  flex-wrap: nowrap !important;
+}
+
+footer .logo{
+  margin-left: 48px;
+}
+.Language{
+  margin-left: 48px;
 }
