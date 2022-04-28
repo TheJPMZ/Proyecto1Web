@@ -17,8 +17,8 @@ export default function BotPart() {
             <hr/>
             <div className="Language">
                 <h5>SELECT LANGUAGE</h5>
-                <div onClick={boton}>
-                    <img src={language} alt="language" className="language"/>
+                <div>
+                    <img src={language} alt="language" className="language" onClick={boton}/>
                 </div>
             </div>
 
