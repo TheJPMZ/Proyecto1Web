@@ -6,7 +6,12 @@ Jose Pablo Monzon
 ## Recreando una pagina web
 Se recrea una pagina web para demostrar todos los conocimientos obtenidos en el transcurso del curso.
 
-La [**pagina a recrear**](https://watch.wwe.com/) hecha originalmente por el equipo de la World Wrestling Entertainment.
+La [**pagina a recrear**](https://watch.wwe.com/) hecha originalmente por el equipo de la World Wrestling Entertainment. Se extrayeron cosas de su pagina como botones e imagenes.
+
+Se utilizaron Fonts de Google Fonts.
+
+El resto de referencias se encuentran en cada documento respectivo.
+
 
 ### Tecnologias Utilizadas:
 |Tecnologias|Uso  |
