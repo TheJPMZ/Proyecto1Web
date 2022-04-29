@@ -1,8 +1,13 @@
 $color : blue;
 
 body {
-
-  background: black;
+  background-color: black ;
+  background-image: url("assets/background.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+  background-size: (100%);
+  transition: background 300ms ease-in 200ms;
   margin: 0;
   font-family: 'DM Sans', sans-serif;
 }
