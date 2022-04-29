@@ -1,23 +1,60 @@
+$cardcolor: #313131;
 
 .cuadrado {
-  padding:2.5%;
+  padding:5%;
+  width: fit-content;
+
+  &:hover{
+    .image{
+      & img{
+        border: red solid 2px;
+        transition: 250ms;
+      }
+      & .cuadrito{
+        background-color: red ;
+        transition: 250ms;
+      }
+    }
+  }
+
 }
 
 .image {
-  width:auto;
-  height:auto;
-
-  & img{
-    width: 12vw;
+  width:268.8px;
+  height:145px;
+  box-shadow: inset 0px -2px 37px 8px red;
+  & img {
+    position: relative;
+    width: 268.8px;
     height: 150px;
-    object-fit: cover;
-    border: #555 solid 2px;
+    border: $cardcolor solid 2px;
 
-    &:hover{
-      border: red solid 2px;
-      transition: 250ms;
+
+
+  }
+
+  & .cuadrito{
+    position: relative;
+    content: "";
+    width: 30px;
+    height: 30px;
+    background-color: rgba(49,49,49,.70) ;
+    bottom: 102%;
+    left: 88%;
+    &::after {
+      //Found on https://css-tricks.com/snippets/css/css-triangle/
+      position: relative;
+      display: block;
+      content: "";
+      left: 40%;
+      top: 10%;
+      border-top: 10px solid transparent;
+      border-bottom: 10px solid transparent;
+      border-left: 10px solid white;
     }
   }
+
+
 }
 
 h6 {
@@ -28,5 +65,18 @@ h6 {
 
 h7 {
   color: #6a6969;
+
+}
+
+.content{
+  transform: translate(0,15px);
+}
+
+.Timestamp{
+  position: relative;
+  color: white;
+  font-size: 13px;
+  left: 81%;
+  bottom: 40%;
 
 }

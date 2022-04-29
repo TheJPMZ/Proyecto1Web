@@ -11,7 +11,7 @@ const responsive = {
     },
     desktop: {
         breakpoint: { max: 3000, min: 1024 },
-        items: 6
+        items: 6.7
     },
     tablet: {
         breakpoint: { max: 1024, min: 464 },
@@ -24,27 +24,64 @@ const responsive = {
 };
 
 export default function Carrousel() {
+
+    const lista = [0, 1, 2, 3, 4, 5, 6, 7, 8, 0, 1, 2, 3, 4, 5, 6, 7, 8]
+
     return (
-        <Carousel
-            swipeable={false}
-            draggable={false}
-            showDots={false}
-            responsive={responsive}
-            ssr={true}
-            infinite={false}
-            keyBoardControl={true}
-            customTransition="all .5"
-            transitionDuration={500}
-            containerClass="carousel-container"
-            removeArrowOnDeviceType={["tablet", "mobile"]}
-            dotListClass="custom-dot-list-style"
-            itemClass="carousel-item-padding-40-px"
-        >
-            <div><Card/></div>
-            <div>Item 2</div>
-            <div>Item 3</div>
-            <div>Item 4</div>
-        </Carousel>
+        <div className="BigCarrousel">
+            <h2>TRENDING NOW</h2>
+            <Carousel
+                additionalTransfrom={0}
+                swipeable={false}
+                draggable={false}
+                showDots={false}
+                responsive={responsive}
+                ssr={true}
+                infinite={false}
+                keyBoardControl={true}
+                customTransition="transform .2s cubic-bezier(.25,.46,.45,.94)"
+                slidesToSlide={7}
+                transitionDuration={200}
+                containerClass="carousel-container"
+                removeArrowOnDeviceType={["tablet", "mobile"]}
+                dotListClass="custom-dot-list-style"
+                itemClass="carousel-item-padding "
+            >
+                <div className="DeadSpace"> </div>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+
+
+
+
+            </Carousel>
+        </div>
     )
 }
 
