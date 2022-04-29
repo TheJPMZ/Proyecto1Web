@@ -1,9 +1,9 @@
 import React from 'react';
-import './Card.scss';
+import './LongCard.scss';
 
 
 
-export default function Card() {
+export default function LongCard() {
 
     function gotoDetail() {
         window.location.href = 'https://www.google.com';

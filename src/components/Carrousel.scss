@@ -4,9 +4,47 @@
   width: 40px !important;
 }
 
+.react-multiple-carousel__arrow--left{
+  background: black;
+  min-width: 75px;
+  min-height: 75px;
+  border-radius: 100%;
+  bottom: 40%;
+  left:0%;
+  border: white solid 3px;
+  transform: translate(-100%,0);
+  &::before{
+    content: "\e824";
+    left: 20%;
+  }
+}
+
+.react-multiple-carousel__arrow--right{
+  background: black;
+  min-width: 75px;
+  min-height: 75px;
+  border-radius: 100%;
+  border: white solid 3px;
+  bottom: 40%;
+  right: 0%;
+  transform: translate(100%,0);
+  &::before{
+    content: "\e824";
+    right: 20%;
+  }
+}
+
 .BigCarrousel{
   position: relative;
   margin-bottom: 2%;
+  &:hover{
+    .react-multiple-carousel__arrow--left{
+      transform: translate(-50%,0);
+    }
+    .react-multiple-carousel__arrow--right{
+      transform: translate(50%,0);
+    }
+  }
 }
 
 h2{

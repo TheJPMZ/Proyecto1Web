@@ -1,0 +1,82 @@
+$cardcolor: #313131;
+
+.Longcuadrado {
+  padding:5%;
+  width: fit-content;
+
+  &:hover{
+    .Longimage{
+      & img{
+        border: red solid 2px;
+        transition: 250ms;
+      }
+      & .cuadrito{
+        background-color: red ;
+        transition: 250ms;
+      }
+    }
+  }
+
+}
+
+.Longimage {
+  width:268.8px;
+  height:400px;
+  box-shadow: inset 0px -2px 37px 8px black;
+  & img {
+    position: relative;
+    width: 268.8px;
+    height: 400px;
+    border: $cardcolor solid 2px;
+
+
+
+  }
+
+  & .Longcuadrito{
+    position: relative;
+    content: "";
+    width: 30px;
+    height: 30px;
+    background-color: rgba(49,49,49,.70) ;
+    bottom: 102%;
+    left: 88%;
+    &::after {
+      //Found on https://css-tricks.com/snippets/css/css-triangle/
+      position: relative;
+      display: block;
+      content: "";
+      left: 40%;
+      top: 10%;
+      border-top: 10px solid transparent;
+      border-bottom: 10px solid transparent;
+      border-left: 10px solid white;
+    }
+  }
+
+
+}
+
+h6 {
+  font-weight: bold;
+  color: white;
+  margin-bottom: 0;
+}
+
+h7 {
+  color: #6a6969;
+
+}
+
+.Longcontent{
+  transform: translate(0,15px);
+}
+
+.LongTimestamp{
+  position: relative;
+  color: white;
+  font-size: 13px;
+  left: 81%;
+  bottom: 40%;
+
+}
