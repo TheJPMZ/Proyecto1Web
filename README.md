@@ -31,7 +31,7 @@ La [**pagina a recrear**](https://watch.wwe.com/) hecha originalmente por el equ
 
 ## Checklist
 
-- [ ] (35 puntos) Según qué tan interesante es el diseño de su interfaz
+- [x] (35 puntos) Según qué tan interesante es el diseño de su interfaz
 - [x] (10 puntos) Readme 
 - [x] (10 puntos) Solo un html
 - [x] (05 puntos) React
@@ -40,7 +40,6 @@ La [**pagina a recrear**](https://watch.wwe.com/) hecha originalmente por el equ
 - [x] (05 puntos) EsLint
 - [x] (05 puntos) Sass (Scss)
 - [x] (05 puntos) Loaders para imagenes
-- [ ] (05 puntos) Animaciones
-- [ ] (10 puntos) Publicarlo con nginx
-- [ ] (20 puntos) Server side rendering {**Extra**}
+- [x] (05 puntos) Animaciones
+- [x] (10 puntos) Publicarlo con nginx
 
